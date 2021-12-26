@@ -1,0 +1,33 @@
+.team {
+    padding: 50px 0;
+}
+
+.team-member {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.team-member h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.team-member h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.team-member p {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.team-member-skeleton {
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+.top-header {
+    background-color: #3742fa;
+    padding: 5px 0px;
+}
+
+.top-header .info ul,
+.top-header .social ul {
+    margin-bottom: 0px;
+}
+
+.top-header .info li {
+    display: inline-block;
+    color: #FFF;
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+.top-header .social {
+    float: right;
+}
+
+.top-header .social ul li {
+    display: inline-block;
+}
+
+.top-header .social ul li a {
+    display: block;
+    color: #FFF;
+    padding: 0px 10px;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.top-header .social ul li:hover a {
+    background-color: #333;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.header .logo img {
+    width: 150px;
+}
+
+.header .menu {
+   display: block;
+}
+
+.header .menu ul {
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.header .menu ul li {
+    display: inline-block;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    color: #3742fa;
+    display: block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.header .menu ul li:hover a {
+    background-color: #3742fa;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+
+.header .menu ul li a.active {
+    background-color: #3742fa;
+    color: #FFF;
+    border-radius: 4px;
+}
