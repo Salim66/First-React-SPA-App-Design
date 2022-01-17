@@ -1,0 +1,43 @@
+.product-item a {
+    display: block;
+    margin-bottom: 25px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    text-decoration: none;
+}
+
+.product-item .name {
+    color: #333;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.product-item .regular {
+    color: #ccc;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.product-item .sale {
+    color: #333;
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.product-item button {
+    color: #FFF;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 100%;
+    transition: .2s;
+}
+
+.product-item button:hover {
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 100%;
+}

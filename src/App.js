@@ -9,6 +9,8 @@ import Team from "./components/Pages/Team/Team";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import NotFound from "./components/Pages/NotFound/NotFound";
 import LoadingBar from 'react-top-loading-bar';
+import Shop from './components/Pages/Shop/Shop';
+import SingleProduct from './components/Pages/Shop/SingleProduct/SingleProduct';
 
 function App() {
 
@@ -37,6 +39,8 @@ function App() {
           <Route path="/about" element={ <About></About> } />
           <Route path="/blog" element={ <Blog></Blog> } />
           <Route path="/team" element={ <Team></Team> } />
+          <Route path="/shop" element={ <Shop></Shop> } />
+          <Route path="/shop/:productId" element={ <SingleProduct></SingleProduct> } />
           <Route path="/*" element={ <NotFound></NotFound> } />     
         
         </Routes>
